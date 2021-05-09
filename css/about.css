@@ -1,0 +1,39 @@
+.interna-about {
+    background: url("../img/foto-about1.png"); no-repeat center;
+
+}
+
+.interna-about p {
+    color: #fff;
+
+}
+
+.our-history {
+    padding-top: 60px;
+}
+
+.our-history p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #484B4D;
+    margin-bottom: 1px;
+    padding-right: 60px;
+
+
+}
+
+.our-history ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#text2 {
+    padding-top: 56px;
+}
+
+
+.foto-about {
+    padding-top: 20px;
+
+}

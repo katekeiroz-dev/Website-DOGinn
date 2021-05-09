@@ -1,0 +1,32 @@
+.interna-gallery {
+    background: url("../img/gallery-foto.png") no-repeat center;
+    background-size: cover;
+
+}
+
+.interna-gallery p {
+    color: #fff;
+}
+
+.quote-gallery {
+    padding: 60px 0;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.quote-gallery p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: italic;
+}
+
+.quote-gallery cite {
+    float: right;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: normal;
+    color: #484B4D;

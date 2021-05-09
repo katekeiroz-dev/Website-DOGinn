@@ -1,0 +1,526 @@
+/*all styles*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #484B4D;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.btn {
+    background: #F08C48;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 14;
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+}
+
+
+.btn:hover {
+    background: #f76e12;
+}
+
+.subtitle {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #484B4D;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.subtitle:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 8px auto;
+}
+
+.subtitle-interno {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #484B4D;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    
+}
+
+.subtitle-interno:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #484B4D;
+    margin: 8px 0;
+}
+
+/* Header */
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #FEC63E;
+    padding: 15px 0;
+    z-index: 10;
+}
+
+.header-menu {
+    text-align: right;
+   
+
+}
+
+.header-menu ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.header-menu ul li a {
+    color: #484B4D;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+
+}
+
+.header-menu ul li a:hover{
+    color: #4AA8A5;
+}
+
+.header-menu ul li a .menu-active {
+    color: #fcfcfc;
+}
+
+/* Intro */
+
+.intro {
+    width: 100%;
+    height: 380px;
+    background: url("../img/foto-home1.png"); no-repeat center;
+    background: cover;
+    margin-top: 92px;
+    text-align: center;
+    padding-top: 90px;
+
+}
+
+.intro h1 {
+    font-size: 48px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.quote {
+    max-width: 320px;
+    margin: 0 auto;
+    color: white;
+    margin-bottom: 40px;
+    
+}
+.quote p {
+    font-style: italic;
+    font-size: 16px;
+    color: #fff;
+}
+
+.quote p:before, .quote p:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 15px auto 10px auto;
+
+    
+}
+
+.quote cite {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.introducao-interna {
+    width: 100%;
+    margin-top: 92px;
+    height: 160px;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.introducao-interna h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.introducao-interna h1:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 6px auto 10px auto;
+}
+
+
+/* SERVICES */
+
+.services {
+    padding: 60px 0;
+}
+
+.services h2:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #484B4D;
+    margin: 2px auto;
+    margin-bottom: 20px;
+}
+
+.services-list li {
+    background: #FEC63E;
+    text-align: center;
+
+}
+
+.services-list li img {
+    margin: 0 auto;
+
+}
+
+.services-list li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #484B4D;
+    margin-top: 20px ;
+  
+
+}
+
+.services-list h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #484B4D;
+    margin: 2px auto;
+
+}
+
+.services-list li p {
+    padding: 10px 20px 20px 20px;
+
+}
+
+.services-icons  {
+    background: #4AA8A5;
+    padding: 20px;
+    
+}
+
+.calltoaction {
+    padding-top: 40px;
+    text-align: center;
+    clear: both;
+}
+
+.calltoaction p {
+    margin-bottom: 20px;
+}
+
+/*gallery */
+
+.gallery {
+    width: 100%;
+    background: #4AA8A5;
+    padding: 40px;
+}
+
+.gallery .subtitle {
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.gallery-list  li:last-child{
+    margin-top: 20px;
+}
+
+.gallery .calltoaction p {
+    color: #fff;
+}
+
+/* OUR VALUES */
+
+.values {
+    padding: 60px 0;
+}
+
+.values:after {
+    content: "";
+    width: 634px;
+    height: 83px;
+    display: block;
+    background: url("../img/linhas.png"); no-repeat center;
+    position: absolute;
+    top: 180px;
+    right: 160px;
+    z-index: -1;
+
+}
+
+.values h2:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #484B4D;
+    margin: 2px auto;
+
+}
+
+.values img {
+    margin: 0 auto;
+    padding-top: 60px;
+
+}
+
+.values-list  {
+   overflow: hidden;
+    
+}
+
+.values-list li {
+    text-align: center;
+    padding: 0 40px;
+    padding-top: 40px;
+
+}
+
+.values-list li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #484B4D;
+    margin-top: 20px ;
+  
+
+}
+
+.values-list h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #484B4D;
+    margin: 6px auto;
+
+}
+
+/* break */
+
+.break {
+    width: 100%;
+    height: 220px;
+    background: url("../img/foto-footer.png"); no-repeat center ;
+    background-size: cover;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.break .quote-down {
+    max-width: 400px;
+    color: #484B4D;
+}
+
+.quote-down p {
+    font-style: italic;
+}
+.quote-down cite {
+    color: #484B4D;
+    line-height: 30px;
+    font-style: normal;
+    font-weight: bold;
+
+}
+
+.quote-down p:before, .quote-down p:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #484B4D;
+    margin: 10px auto 10px auto;
+}
+
+.footer {
+    width: 100%;
+    background: #4AA8A5;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer h3 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FEC63E;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-top: 20px;
+
+}
+
+.footer h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #FEC63E;
+    margin: 6px 0 12px 0;
+
+
+}
+.footer-about {
+    padding-top: 30px;
+    padding-right: 40px;
+
+}
+
+.footer-about .mission {
+    font-size: 20px;
+    color: #fff;
+
+}
+  
+
+}
+.footer-contact  ul li {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.footer-social ul li {
+    display: inline-block;
+    margin-right:  -10px;
+    
+}
+
+.footer-social ul li a {
+    display: block;
+    padding: 10px;
+
+}
+
+.footer-social ul li a:hover {
+    color:  #f76e12;
+    
+
+}
+
+.copywrite {
+    width: 100%;
+    background: #FEC63E;
+    padding: 20px 0;
+}
+
+/*javaScrip*/
+
+.js [data-slide] {
+    position: relative;
+  }
+
+.js [data-slide] > * {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+  }
+.js [data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: opacity 500ms;
+    z-index: 1;
+  }
+
+.js [data-slide-nav] {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+.js [data-slide-nav] > button {
+    display: inline-block;
+    width: 12px;
+    margin: 4px;
+    height: 12px;
+    border: none;
+    padding: 0px;
+    border-radius: 6px;
+    background: #fff;
+    text-indent: -100px;
+    overflow: hidden;
+  }
+.js [data-slide-nav] > button.active {
+    background: #fec454;
+  }
+
+
+.js [data-anime] {
+    opacity: 0;
+  }
+.js .anime {
+    opacity: 1;
+    transform: none;
+    transition: transform .8s, opacity .8s;
+  }
+  
+  /* 7 CSS personalizado dependendo da animação desejada */
+.js .fadeInDown {
+    transform: translate3d(0,-20px,0);
+  }
+.js .fadeInUp {
+    transform: translate3d(0,20px,0);
+  }
+.js .fadeInRight {
+    transform: translate3d(20px,0,0);
+  }
+.js .fadeInLeft {
+    transform: translate3d(-20px,0,0);
+  }
