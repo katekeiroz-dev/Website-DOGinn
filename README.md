@@ -12,7 +12,7 @@ Doginn is a hotel for dogs, offering spa, sleeping and vacation services.The ide
 - **Html**
 - **CSS**
 - **javaScript**
-- **Adobe Xd** ( wireframe/ layout )
+- **Adobe Xd** ( wireframe/ layout)
 
 ### Preview
 
