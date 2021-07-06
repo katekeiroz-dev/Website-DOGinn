@@ -8,7 +8,7 @@ Project website done, with a responsive and functional layout .
 
 Doginn is a hotel for dogs, offering spa, sleeping and vacation services.The idea was to develop a simple, accessible and informative website.
 
-### Features 💻
+### Stack 💻
 - **Html**
 - **CSS**
 - **javaScript**
