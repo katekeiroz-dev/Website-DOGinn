@@ -14,8 +14,12 @@ Doginn is a hotel for dogs, offering spa, sleeping and vacation services.The ide
 - **javaScript**
 - **Adobe Xd** ( wireframe/ layout)
 
-### Preview
+### Preview ⬇️⬇️
 
+https://dog-inn.netlify.app
+
+
+### layout
 ![mockupdoginn](https://user-images.githubusercontent.com/81806904/117641631-4a91d900-b17e-11eb-9821-dc7d4f10a14e.png)
 
 
