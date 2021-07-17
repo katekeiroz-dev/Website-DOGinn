@@ -1,11 +1,9 @@
   
 ![Untitled-1-01](https://user-images.githubusercontent.com/81806904/116468349-a730f200-a868-11eb-9710-229169f12772.png)
 
-Project website done, with a responsive and functional layout .
-
 
 ### The project
-
+Project website done, with a responsive and functional layout .<br>
 Doginn is a hotel for dogs, offering spa, sleeping and vacation services.The idea was to develop a simple, accessible and informative website.
 
 ### Stack 💻
