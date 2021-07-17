@@ -28,7 +28,7 @@ https://dog-inn.netlify.app
 - JS animation
 
 
-### layout
+### ⬇️ Layout
 ![mockupdoginn](https://user-images.githubusercontent.com/81806904/117641631-4a91d900-b17e-11eb-9821-dc7d4f10a14e.png)
 
 
