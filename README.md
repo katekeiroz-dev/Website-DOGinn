@@ -6,17 +6,17 @@
 Project website done, with a responsive and functional layout .<br>
 Doginn is a hotel for dogs, offering spa, sleeping and vacation services.The idea was to develop a simple, accessible and informative website.
 
-### Stack 💻
+### Stack 💻 :
 - Html
 - CSS**
 - javaScript
 - Adobe Xd ( wireframe/ layout)
 
-### Preview ⬇️⬇️
+### Preview ⬇️⬇️ :
 
 https://dog-inn.netlify.app
 
-### ✔️ Practiced /learnt
+### ✔️ Practiced /learnt :
 
 - html best practices
 - clean code
